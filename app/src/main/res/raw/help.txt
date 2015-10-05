@@ -1,0 +1,24 @@
+HELP DEMO v1.0 (Alpha)
+
+
+HELP DEMO v1.0 /* Give a background of the app */
+
+
+INSTRUCTIONS:
+
+/* Give the instructions for the app */
+
+
+FEATURES:
+- ...
+/* Give the features of the app */ 
+
+
+SUPPORT INFORMATION:
+
+/* APP NAME */ is developed by MKC.
+
+Melvin K. Cabatuan
+Phone: (+63)999-522-6213
+Email: melvincabatuan@gmail.com
+All Rights Reserved

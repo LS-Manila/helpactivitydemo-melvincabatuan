@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cabatuan.helpactivity"
+    android:installLocation="preferExternal" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cabatuan.helpactivity.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.cabatuan.helpactivity.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name1">
+        </activity>
+
+
+        <activity
+            android:name="com.cabatuan.helpactivity.HelpActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/action_help">
+        </activity>
+
+
+        <service
+            android:enabled="true"
+            android:name="com.cabatuan.helpactivity.BackgroundSound" />
+
+    </application>
+
+</manifest>
